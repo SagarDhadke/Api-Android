@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.DownloadManager;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import com.android.volley.Request;
@@ -23,6 +24,10 @@ public class SubscriptionApi extends AppCompatActivity {
 
     String url = "https://random-data-api.com/api/subscription/random_subscription";
     RequestQueue myRequest;
+    TextView textView, EditText;
+
+
+//    textView = findViewById(r.id.randomid);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

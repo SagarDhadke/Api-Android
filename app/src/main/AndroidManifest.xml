@@ -16,6 +16,13 @@
         android:theme="@style/Theme.ApiServer"
         tools:targetApi="31">
         <activity
+            android:name=".Cryto"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".SubscriptionApi"
             android:exported="false" />
         <activity
